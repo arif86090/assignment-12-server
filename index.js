@@ -311,7 +311,9 @@ run().catch(console.dir);
 
 
 
-
+app.get('/text',(req,res) =>{
+  res.send('yessssssssssss!!!')
+})
 
 app.get('/',(req,res) =>{
   res.send('12 Node runing!!!')
